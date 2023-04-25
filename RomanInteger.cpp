@@ -13,7 +13,7 @@ public:
         int integer = 0;
         integer += storeKeyValue[s[0]];
         for (int i = 1; i < s.length(); i++) {
-            if(storeKeyValue[s[i]] >= storeKeyValue[s[i-1]])
+             if(storeKeyValue[s[i]] >= storeKeyValue[s[i-1]])
                 integer += storeKeyValue[s[i]];
             else
                 integer -= storeKeyValue[s[i]];
