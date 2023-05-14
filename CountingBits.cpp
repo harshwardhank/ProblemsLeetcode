@@ -3,7 +3,7 @@ public:
     vector<int> countBits(int n) {
         vector<int> ans;
 		
-		// iterating fromt 0 to n
+		                // iterating fromt 0 to n
         for(int i = 0; i<=n; i++)
         {
 			// sum is initialised as 0
